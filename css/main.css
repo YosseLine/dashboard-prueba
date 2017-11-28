@@ -28,7 +28,7 @@ header{
   background-color: rgba(255,193,7,0.5);
 }
 .nav-header{
-  width: 81.2%;
+  width: 81%;
   height: 61.48px;
   vertical-align: top;
   outline: 1px solid blue;
@@ -93,15 +93,19 @@ a{
   margin: 0 10px;
   transform: translateY(30%);
 }
-.region:hover, .list-region:hover{
+.region:hover, .list-region:hover, .list-lim:hover, .list-aqp:hover, .list-scl:hover, .list-cdmx:hover{
   background-color: rgb(236,235,235);
-}
-.region:link, .list-region:link{
-  background-color: rgb(255,193,7);
 }
 .fa-sort-desc{
   margin-left: 10px;
+  color: rgba(43,43,43,0.8);
 }
 .margin-list{
   margin-top: 2px;
+}
+.list-lim, .list-aqp, .list-scl, .list-cdmx{
+  font-size: 15px;
+  padding: 7px 0;
+  padding-left: 50px;
+
 }
